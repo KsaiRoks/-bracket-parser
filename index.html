@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Анализатор скобок</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <h1>Анализатор скобок</h1>
+    <form>
+        <label for="inputString">Введите строку из скобок </label><br>
+        <input type="text" id="inputString" name="inputString"><br><br>
+        
+        <button type="button" onclick="validateSimple()">Обычная проверка</button>
+        <button type="button" onclick="validateRecursive()">Рекурсивно проверить</button>
+        <button type="button" onclick="resetForm()">Очистить</button>
+    </form>
+    <p id="result">Ожидание</p>
+
+</body>
+</html>
